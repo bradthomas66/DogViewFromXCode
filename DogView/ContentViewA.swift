@@ -37,7 +37,7 @@ struct grumpyDogView: View {
         Image("grumpyDog")
             .resizable()
             .aspectRatio(contentMode: .fill)
-            .frame(width: 290, height: 580)
+            .frame(width: 300, height: 580)
             .clipped()
             .cornerRadius(15)
     }
